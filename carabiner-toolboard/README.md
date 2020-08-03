@@ -2,8 +2,6 @@
 
 Toolboard for easy & quick connection between the backpack and toolhead.
 
-This repo is supposed to be ahead of the carabiner in https://github.com/Annex-engineering-internal/Misc/ as this repo contains the in-progress versions of it.
-
 ## Features
 
 - Input via
