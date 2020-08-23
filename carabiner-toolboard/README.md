@@ -28,7 +28,7 @@ This repo is supposed to be ahead of the carabiner in https://github.com/Annex-e
 - 2 pin micro-Fit 43650 connector (Hotend) 
 - 4x 2pin JST XH connector (HotendThermistor, 2x PCFan, HEFan)
 - 2x 4pin JST XH connector (Motor, Aux)
-- 1x 0603 thermistor (ChamberThermistor) ( https://www.aliexpress.com/item/32954673950.html )
+- 1x 1206 thermistor (ChamberThermistor) (smaller thermistors might fit)
 - (optional) 1x BAT85 Diode (for inductive probes) ( https://www.aliexpress.com/item/32666982991.html )
 
 ## Stencil

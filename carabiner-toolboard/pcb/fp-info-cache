@@ -1,4 +1,4 @@
-16940092714473503
+16941697008141503
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -75306,6 +75306,13 @@ varistor SIOV
 2
 2
 carabiner-footprints
+1206_3216_HandSolder_Hole
+Diode SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+diode handsolder
+0
+2
+2
+carabiner-footprints
 AnnexLogo
 
 
@@ -75334,12 +75341,12 @@ JST_XH_SMT_01x04
 6
 4
 carabiner-footprints
-Molex_Micro-Fit_3.0_43045-1412_2x07_P3.00mm_Vertical_Thick
-Molex Micro-Fit 3.0 Connector System, 43045-1412 (compatible alternatives: 43045-1413, 43045-1424), 7 Pins per row (http://www.molex.com/pdm_docs/sd/430450212_sd.pdf), generated with kicad-footprint-generator
+Molex_Micro-Fit_3.0_2x08_P3.00mm_Vertical
+Molex Micro-Fit 3.0 Connector System, 43045-1612 (compatible alternatives: 43045-1613, 43045-1624), 8 Pins per row (http://www.molex.com/pdm_docs/sd/430450212_sd.pdf), generated with kicad-footprint-generator
 connector Molex Micro-Fit_3.0 side entry
 0
-14
-14
+16
+16
 carabiner-footprints
 Molex_Micro-Fit_3.0_43045-1612_2x08_P3.00mm_Vertical_Thick
 Molex Micro-Fit 3.0 Connector System, 43045-1612 (compatible alternatives: 43045-1613, 43045-1624), 8 Pins per row (http://www.molex.com/pdm_docs/sd/430450212_sd.pdf), generated with kicad-footprint-generator

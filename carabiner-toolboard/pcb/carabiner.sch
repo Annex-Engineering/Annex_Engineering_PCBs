@@ -207,7 +207,7 @@ U 1 1 5EF95E13
 P 4825 3775
 F 0 "Chamber1" H 4717 3450 50  0000 C CNN
 F 1 "Thermistor" H 4717 3541 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4825 3775 50  0001 C CNN
+F 2 "carabiner-footprints:1206_3216_HandSolder_Hole" H 4825 3775 50  0001 C CNN
 F 3 "~" H 4825 3775 50  0001 C CNN
 	1    4825 3775
 	-1   0    0    1   
