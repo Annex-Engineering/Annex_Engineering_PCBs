@@ -2,8 +2,6 @@
 
 Toolboard for easy & quick connection between the backpack and toolhead.
 
-This repo is supposed to be ahead of the carabiner in https://github.com/Annex-engineering-internal/Misc/ as this repo contains the in-progress versions of it.
-
 ## Features
 
 - Input via
@@ -23,13 +21,7 @@ This repo is supposed to be ahead of the carabiner in https://github.com/Annex-e
 
 ## BOM / Parts
 
-- 16 pin microFit cable ( https://www.aliexpress.com/item/4001132970645.html ) 
-- 16 pin micro-Fit horizontal 43045 connector ( https://www.aliexpress.com/item/32825801831.html )
-- 2 pin micro-Fit 43650 connector (Hotend) 
-- 4x 2pin JST XH connector (HotendThermistor, 2x PCFan, HEFan)
-- 2x 4pin JST XH connector (Motor, Aux)
-- 1x 1206 thermistor (ChamberThermistor) (smaller thermistors might fit)
-- (optional) 1x BAT85 Diode (for inductive probes) ( https://www.aliexpress.com/item/32666982991.html )
+Sourcing Guide can be found here: https://docs.google.com/spreadsheets/d/1O3eyVuQ6M4F03MJSDs4Z71_XyNjXL5HFTZr1jsaAtRc/edit?usp=sharing
 
 ## Stencil
 
