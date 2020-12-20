@@ -337,7 +337,7 @@ U 1 1 5F24B9BC
 P 8725 2400
 F 0 "J1" H 8775 2917 50  0000 C CNN
 F 1 "CommonConnector" H 8775 2826 50  0000 C CNN
-F 2 "carabiner-footprints:Molex_Micro-Fit_3.0_2x08_P3.00mm_Vertical" H 8725 2400 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-1612_2x08_P3.00mm_Vertical" H 8725 2400 50  0001 C CNN
 F 3 "~" H 8725 2400 50  0001 C CNN
 	1    8725 2400
 	1    0    0    -1  
