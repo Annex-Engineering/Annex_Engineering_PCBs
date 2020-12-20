@@ -16,48 +16,48 @@ $EndDescr
 $Comp
 L climber-rescue:Conn_01x02_Female-Connector PCF1
 U 1 1 5EDFCAA7
-P 7200 4375
-F 0 "PCF1" H 7092 4050 50  0000 C CNN
-F 1 "PcFan1" H 7092 4141 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 7200 4375 50  0001 C CNN
-F 3 "~" H 7200 4375 50  0001 C CNN
-	1    7200 4375
+P 8100 4225
+F 0 "PCF1" H 7992 3900 50  0000 C CNN
+F 1 "PcFan1" H 7992 3991 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 8100 4225 50  0001 C CNN
+F 3 "~" H 8100 4225 50  0001 C CNN
+	1    8100 4225
 	-1   0    0    1   
 $EndComp
 $Comp
 L climber-rescue:Conn_01x02_Female-Connector PCF2
 U 1 1 5EDFD852
-P 7200 4825
-F 0 "PCF2" H 7092 4500 50  0000 C CNN
-F 1 "PcFan2" H 7092 4591 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 7200 4825 50  0001 C CNN
-F 3 "~" H 7200 4825 50  0001 C CNN
-	1    7200 4825
+P 8100 4675
+F 0 "PCF2" H 7992 4350 50  0000 C CNN
+F 1 "PcFan2" H 7992 4441 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 8100 4675 50  0001 C CNN
+F 3 "~" H 8100 4675 50  0001 C CNN
+	1    8100 4675
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	7400 4275 7550 4275
+	8300 4125 8450 4125
 Wire Wire Line
-	7550 4275 7550 4725
+	8450 4125 8450 4575
 Wire Wire Line
-	7550 4725 7400 4725
+	8450 4575 8300 4575
 Wire Wire Line
-	7400 4375 7650 4375
+	8300 4225 8550 4225
 Wire Wire Line
-	7650 4375 7650 4825
+	8550 4225 8550 4675
 Wire Wire Line
-	7650 4825 7400 4825
-Connection ~ 7650 4375
+	8550 4675 8300 4675
+Connection ~ 8550 4225
 Wire Wire Line
-	7650 4375 8000 4375
+	8550 4225 8900 4225
 Wire Wire Line
-	7550 4275 8000 4275
-Connection ~ 7550 4275
-Text GLabel 8000 4275 2    50   Input ~ 0
+	8450 4125 8900 4125
+Connection ~ 8450 4125
+Text GLabel 8900 4125 2    50   Input ~ 0
 PcFanGnd
-Text GLabel 8000 4375 2    50   Input ~ 0
+Text GLabel 8900 4225 2    50   Input ~ 0
 PcFanSwitch
-Text GLabel 1450 1050 0    50   Input ~ 0
+Text GLabel 8200 3500 0    50   Input ~ 0
 PcFanSwitch
 $Comp
 L climber-rescue:Conn_01x02_Female-Connector HEF1
@@ -77,289 +77,289 @@ HotendFanSwitch
 $Comp
 L climber-rescue:Conn_01x02_Female-Connector ThHE1
 U 1 1 5EE0D6FD
-P 5550 3775
-F 0 "ThHE1" H 5442 3450 50  0000 C CNN
-F 1 "Thermistor" H 5442 3541 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 5550 3775 50  0001 C CNN
-F 3 "~" H 5550 3775 50  0001 C CNN
-	1    5550 3775
+P 1650 4625
+F 0 "ThHE1" H 1542 4300 50  0000 C CNN
+F 1 "Thermistor" H 1542 4391 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 1650 4625 50  0001 C CNN
+F 3 "~" H 1650 4625 50  0001 C CNN
+	1    1650 4625
 	-1   0    0    1   
 $EndComp
-Text GLabel 5750 3675 2    50   Input ~ 0
+Text GLabel 1850 4525 2    50   Input ~ 0
 ThHot
-Text GLabel 5750 3775 2    50   Input ~ 0
+Text GLabel 1850 4625 2    50   Input ~ 0
 ThCom
 $Comp
 L climber-rescue:Conn_01x04_Female-Connector Probe1
 U 1 1 5EE118E3
-P 5225 4400
-F 0 "Probe1" H 5117 3975 50  0000 C CNN
-F 1 "Probe" H 5117 4066 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 5225 4400 50  0001 C CNN
-F 3 "~" H 5225 4400 50  0001 C CNN
-	1    5225 4400
+P 3525 4500
+F 0 "Probe1" H 3417 4075 50  0000 C CNN
+F 1 "Probe" H 3417 4166 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 3525 4500 50  0001 C CNN
+F 3 "~" H 3525 4500 50  0001 C CNN
+	1    3525 4500
 	-1   0    0    1   
 $EndComp
-Text GLabel 5425 4200 2    50   Input ~ 0
+Text GLabel 3725 4300 2    50   Input ~ 0
 Gnd
-Text GLabel 5425 4300 2    50   Input ~ 0
+Text GLabel 3725 4400 2    50   Input ~ 0
 Z-Stop
 $Comp
 L climber-rescue:Conn_01x04_Female-Connector Stepper1
 U 1 1 5EE148C5
-P 7150 3700
-F 0 "Stepper1" H 7042 3275 50  0000 C CNN
-F 1 "E-Stepper" H 7042 3366 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 7150 3700 50  0001 C CNN
-F 3 "~" H 7150 3700 50  0001 C CNN
-	1    7150 3700
+P 3550 5350
+F 0 "Stepper1" H 3442 4925 50  0000 C CNN
+F 1 "E-Stepper" H 3442 5016 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 3550 5350 50  0001 C CNN
+F 3 "~" H 3550 5350 50  0001 C CNN
+	1    3550 5350
 	-1   0    0    1   
 $EndComp
-Text GLabel 7350 3500 2    50   Input ~ 0
+Text GLabel 3750 5150 2    50   Input ~ 0
 Stepper1A
-Text GLabel 7350 3600 2    50   Input ~ 0
+Text GLabel 3750 5250 2    50   Input ~ 0
 Stepper1B
-Text GLabel 7350 3700 2    50   Input ~ 0
+Text GLabel 3750 5350 2    50   Input ~ 0
 Stepper2A
-Text GLabel 7350 3800 2    50   Input ~ 0
+Text GLabel 3750 5450 2    50   Input ~ 0
 Stepper2B
-Text GLabel 7325 1075 2    50   Input ~ 0
+Text GLabel 1825 6775 2    50   Input ~ 0
 Common24V
-Text GLabel 6825 1075 0    50   Input ~ 0
+Text GLabel 1325 6775 0    50   Input ~ 0
 AltSw
-Text GLabel 6825 1575 0    50   Input ~ 0
+Text GLabel 1325 7275 0    50   Input ~ 0
 Stepper1B
-Text GLabel 7325 1475 2    50   Input ~ 0
+Text GLabel 1825 7175 2    50   Input ~ 0
 Stepper2B
-Text GLabel 7325 1675 2    50   Input ~ 0
+Text GLabel 1825 7375 2    50   Input ~ 0
 Z-Stop
-Text GLabel 6825 1675 0    50   Input ~ 0
+Text GLabel 1325 7375 0    50   Input ~ 0
 Gnd
 $Comp
 L climber-rescue:Conn_02x08_Top_Bottom-Connector_Generic J7
 U 1 1 5EE1F99B
-P 7025 1375
-F 0 "J7" H 7075 1892 50  0000 C CNN
-F 1 "CommonConnector" H 7075 1801 50  0000 C CNN
-F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-1600_2x08_P3.00mm_Horizontal" H 7025 1375 50  0001 C CNN
-F 3 "~" H 7025 1375 50  0001 C CNN
-	1    7025 1375
+P 1525 7075
+F 0 "J7" H 1575 7592 50  0000 C CNN
+F 1 "CommonConnector" H 1575 7501 50  0000 C CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-1600_2x08_P3.00mm_Horizontal" H 1525 7075 50  0001 C CNN
+F 3 "~" H 1525 7075 50  0001 C CNN
+	1    1525 7075
 	1    0    0    -1  
 $EndComp
 $Comp
 L climber-rescue:Conn_01x02_Female-Connector HotendMF1
 U 1 1 5EE2F02C
-P 5950 4775
-F 0 "HotendMF1" H 5842 4960 50  0000 C CNN
-F 1 "HotendTool" H 5842 4869 50  0000 C CNN
-F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical" H 5950 4775 50  0001 C CNN
-F 3 "~" H 5950 4775 50  0001 C CNN
-	1    5950 4775
+P 3600 5925
+F 0 "HotendMF1" H 3492 6110 50  0000 C CNN
+F 1 "HotendTool" H 3492 6019 50  0000 C CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical" H 3600 5925 50  0001 C CNN
+F 3 "~" H 3600 5925 50  0001 C CNN
+	1    3600 5925
 	-1   0    0    -1  
 $EndComp
-Text GLabel 7325 1575 2    50   Input ~ 0
+Text GLabel 1825 7275 2    50   Input ~ 0
 Stepper2A
-Text GLabel 6825 1475 0    50   Input ~ 0
+Text GLabel 1325 7175 0    50   Input ~ 0
 Stepper1A
-Text GLabel 7325 1175 2    50   Input ~ 0
+Text GLabel 1825 6875 2    50   Input ~ 0
 HotendNeg
-Text GLabel 6150 4875 2    50   Input ~ 0
+Text GLabel 3800 6025 2    50   Input ~ 0
 HotendNeg
-Text GLabel 6150 4775 2    50   Input ~ 0
+Text GLabel 3800 5925 2    50   Input ~ 0
 Common24V
-Text GLabel 6825 1175 0    50   Input ~ 0
+Text GLabel 1325 6875 0    50   Input ~ 0
 PcFanGnd
-Text GLabel 6825 1275 0    50   Input ~ 0
+Text GLabel 1325 6975 0    50   Input ~ 0
 HotendFanGnd
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 5EE7940F
-P 8325 1025
-F 0 "H1" H 8425 1071 50  0000 L CNN
-F 1 "MountingHole" H 8425 980 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 8325 1025 50  0001 C CNN
-F 3 "~" H 8325 1025 50  0001 C CNN
-	1    8325 1025
+P 6125 5225
+F 0 "H1" H 6225 5271 50  0000 L CNN
+F 1 "MountingHole" H 6225 5180 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 6125 5225 50  0001 C CNN
+F 3 "~" H 6125 5225 50  0001 C CNN
+	1    6125 5225
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H2
 U 1 1 5EE7988B
-P 8325 1300
-F 0 "H2" H 8425 1346 50  0000 L CNN
-F 1 "MountingHole" H 8425 1255 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 8325 1300 50  0001 C CNN
-F 3 "~" H 8325 1300 50  0001 C CNN
-	1    8325 1300
+P 6125 5500
+F 0 "H2" H 6225 5546 50  0000 L CNN
+F 1 "MountingHole" H 6225 5455 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 6125 5500 50  0001 C CNN
+F 3 "~" H 6125 5500 50  0001 C CNN
+	1    6125 5500
 	1    0    0    -1  
 $EndComp
-Text GLabel 7325 1775 2    50   Input ~ 0
+Text GLabel 1825 7475 2    50   Input ~ 0
 Aux1
-Text GLabel 6825 1775 0    50   Input ~ 0
+Text GLabel 1325 7475 0    50   Input ~ 0
 Aux2
-Text GLabel 5425 4400 2    50   Input ~ 0
+Text GLabel 3725 4500 2    50   Input ~ 0
 Aux1
-Text GLabel 4000 1775 0    50   Input ~ 0
+Text GLabel 3250 3525 0    50   Input ~ 0
 Aux2
 $Comp
 L climber-rescue:Conn_01x02_Female-Connector Chamber1
 U 1 1 5EF95E13
-P 4825 3775
-F 0 "Chamber1" H 4717 3450 50  0000 C CNN
-F 1 "Thermistor" H 4717 3541 50  0000 C CNN
-F 2 "carabiner-footprints:1206_3216_HandSolder_Hole" H 4825 3775 50  0001 C CNN
-F 3 "~" H 4825 3775 50  0001 C CNN
-	1    4825 3775
+P 925 4625
+F 0 "Chamber1" H 817 4300 50  0000 C CNN
+F 1 "Thermistor" H 817 4391 50  0000 C CNN
+F 2 "carabiner-footprints:1206_3216_HandSolder_Hole" H 925 4625 50  0001 C CNN
+F 3 "~" H 925 4625 50  0001 C CNN
+	1    925  4625
 	-1   0    0    1   
 $EndComp
-Text GLabel 5025 3675 2    50   Input ~ 0
+Text GLabel 1125 4525 2    50   Input ~ 0
 ThCom
 $Comp
 L Diode:B350 D1
 U 1 1 5EFFB778
-P 4475 1775
-F 0 "D1" H 4475 1559 50  0000 C CNN
-F 1 "B350" H 4475 1650 50  0000 C CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4475 1600 50  0001 C CNN
-F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 4475 1775 50  0001 C CNN
-	1    4475 1775
+P 3725 3525
+F 0 "D1" H 3725 3309 50  0000 C CNN
+F 1 "B350" H 3725 3400 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3725 3350 50  0001 C CNN
+F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 3725 3525 50  0001 C CNN
+	1    3725 3525
 	-1   0    0    1   
 $EndComp
 $Comp
 L Jumper:SolderJumper_2_Open JPAux4
 U 1 1 5EFFC797
-P 4475 2125
-F 0 "JPAux4" H 4475 2330 50  0000 C CNN
-F 1 "SolderJumper_2_Open" H 4475 2239 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 4475 2125 50  0001 C CNN
-F 3 "~" H 4475 2125 50  0001 C CNN
-	1    4475 2125
+P 3725 3875
+F 0 "JPAux4" H 3725 4080 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 3725 3989 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 3725 3875 50  0001 C CNN
+F 3 "~" H 3725 3875 50  0001 C CNN
+	1    3725 3875
 	1    0    0    -1  
 $EndComp
-Text GLabel 5100 1775 2    50   Input ~ 0
+Text GLabel 4350 3525 2    50   Input ~ 0
 DioAux2
-Text GLabel 5425 4500 2    50   Input ~ 0
+Text GLabel 3725 4600 2    50   Input ~ 0
 DioAux2
 Wire Wire Line
-	4000 1775 4325 1775
+	3250 3525 3575 3525
 Wire Wire Line
-	4325 1775 4325 2125
-Connection ~ 4325 1775
+	3575 3525 3575 3875
+Connection ~ 3575 3525
 Wire Wire Line
-	4625 1775 4625 2125
+	3875 3525 3875 3875
 Wire Wire Line
-	4625 1775 5100 1775
-Connection ~ 4625 1775
-Text GLabel 5025 3775 2    50   Input ~ 0
+	3875 3525 4350 3525
+Connection ~ 3875 3525
+Text GLabel 1125 4625 2    50   Input ~ 0
 ThCham
-Text GLabel 7325 1375 2    50   Input ~ 0
+Text GLabel 1825 7075 2    50   Input ~ 0
 ThHot
-Text GLabel 6825 1375 0    50   Input ~ 0
+Text GLabel 1325 7075 0    50   Input ~ 0
 ThCom
-Text GLabel 1300 1950 0    50   Input ~ 0
+Text GLabel 1050 4100 0    50   Input ~ 0
 AltSw
-Text GLabel 2100 1950 2    50   Input ~ 0
+Text GLabel 1150 4100 2    50   Input ~ 0
 ThCham
 $Comp
 L climber-rescue:SolderJumper_3_Open-Jumper JpPCF1
 U 1 1 5EFCA6B0
-P 1600 1050
-F 0 "JpPCF1" V 1554 1118 50  0000 L CNN
-F 1 "SolderJumper_3_Open-Jumper" V 1645 1118 50  0000 L CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 1600 1050 50  0001 C CNN
-F 3 "" H 1600 1050 50  0001 C CNN
-	1    1600 1050
+P 8350 3500
+F 0 "JpPCF1" V 8304 3568 50  0000 L CNN
+F 1 "SolderJumper_3_Open-Jumper" V 8395 3568 50  0000 L CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 8350 3500 50  0001 C CNN
+F 3 "" H 8350 3500 50  0001 C CNN
+	1    8350 3500
 	0    1    1    0   
 $EndComp
-Text GLabel 1700 850  2    50   Input ~ 0
+Text GLabel 8450 3300 2    50   Input ~ 0
 Common24V
-Text GLabel 1700 1250 2    50   Input ~ 0
+Text GLabel 8450 3700 2    50   Input ~ 0
 AltVolt
 Wire Wire Line
-	1700 850  1600 850 
+	8450 3300 8350 3300
 Wire Wire Line
-	1600 1250 1700 1250
-Text GLabel 4250 1050 0    50   Input ~ 0
+	8350 3700 8450 3700
+Text GLabel 6200 3550 0    50   Input ~ 0
 HotendFanSwitch
 $Comp
 L climber-rescue:SolderJumper_3_Open-Jumper JpHEF1
 U 1 1 5EFCFB02
-P 4400 1050
-F 0 "JpHEF1" V 4354 1118 50  0000 L CNN
-F 1 "SolderJumper_3_Open-Jumper" V 4445 1118 50  0000 L CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 4400 1050 50  0001 C CNN
-F 3 "" H 4400 1050 50  0001 C CNN
-	1    4400 1050
+P 6350 3550
+F 0 "JpHEF1" V 6304 3618 50  0000 L CNN
+F 1 "SolderJumper_3_Open-Jumper" V 6395 3618 50  0000 L CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 6350 3550 50  0001 C CNN
+F 3 "" H 6350 3550 50  0001 C CNN
+	1    6350 3550
 	0    1    1    0   
 $EndComp
-Text GLabel 4500 850  2    50   Input ~ 0
+Text GLabel 6450 3350 2    50   Input ~ 0
 Common24V
-Text GLabel 4500 1250 2    50   Input ~ 0
+Text GLabel 6450 3750 2    50   Input ~ 0
 AltVolt
 Wire Wire Line
-	4500 850  4400 850 
+	6450 3350 6350 3350
 Wire Wire Line
-	4400 1250 4500 1250
-Text GLabel 7325 1275 2    50   Input ~ 0
+	6350 3750 6450 3750
+Text GLabel 1825 6975 2    50   Input ~ 0
 AltVolt
-Wire Wire Line
-	1300 1950 2100 1950
 $Comp
 L climber-rescue:Conn_01x02_Female-Connector HotendXH1
 U 1 1 5F03F6DE
-P 5950 5225
-F 0 "HotendXH1" H 5842 5410 50  0000 C CNN
-F 1 "HotendXHTool" H 5842 5319 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 5950 5225 50  0001 C CNN
-F 3 "~" H 5950 5225 50  0001 C CNN
-	1    5950 5225
+P 3600 6425
+F 0 "HotendXH1" H 3492 6610 50  0000 C CNN
+F 1 "HotendXHTool" H 3492 6519 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 3600 6425 50  0001 C CNN
+F 3 "~" H 3600 6425 50  0001 C CNN
+	1    3600 6425
 	-1   0    0    -1  
 $EndComp
-Text GLabel 6150 5325 2    50   Input ~ 0
+Text GLabel 3800 6525 2    50   Input ~ 0
 HotendNeg
-Text GLabel 6150 5225 2    50   Input ~ 0
+Text GLabel 3800 6425 2    50   Input ~ 0
 Common24V
-Text GLabel 9025 2100 2    50   Input ~ 0
+Text GLabel 1825 5650 2    50   Input ~ 0
 Common24V
-Text GLabel 8525 2100 0    50   Input ~ 0
+Text GLabel 1325 5650 0    50   Input ~ 0
 AltSw
-Text GLabel 8525 2600 0    50   Input ~ 0
+Text GLabel 1325 6150 0    50   Input ~ 0
 Stepper1B
-Text GLabel 9025 2500 2    50   Input ~ 0
+Text GLabel 1825 6050 2    50   Input ~ 0
 Stepper2B
-Text GLabel 9025 2700 2    50   Input ~ 0
+Text GLabel 1825 6250 2    50   Input ~ 0
 Z-Stop
-Text GLabel 8525 2700 0    50   Input ~ 0
+Text GLabel 1325 6250 0    50   Input ~ 0
 Gnd
 $Comp
 L climber-rescue:Conn_02x08_Top_Bottom-Connector_Generic J1
 U 1 1 5F24B9BC
-P 8725 2400
-F 0 "J1" H 8775 2917 50  0000 C CNN
-F 1 "CommonConnector" H 8775 2826 50  0000 C CNN
-F 2 "carabiner-footprints:Molex_Micro-Fit_3.0_2x08_P3.00mm_Vertical" H 8725 2400 50  0001 C CNN
-F 3 "~" H 8725 2400 50  0001 C CNN
-	1    8725 2400
+P 1525 5950
+F 0 "J1" H 1575 6467 50  0000 C CNN
+F 1 "CommonConnector" H 1575 6376 50  0000 C CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-1612_2x08_P3.00mm_Vertical" H 1525 5950 50  0001 C CNN
+F 3 "~" H 1525 5950 50  0001 C CNN
+	1    1525 5950
 	1    0    0    -1  
 $EndComp
-Text GLabel 9025 2600 2    50   Input ~ 0
+Text GLabel 1825 6150 2    50   Input ~ 0
 Stepper2A
-Text GLabel 8525 2500 0    50   Input ~ 0
+Text GLabel 1325 6050 0    50   Input ~ 0
 Stepper1A
-Text GLabel 9025 2200 2    50   Input ~ 0
+Text GLabel 1825 5750 2    50   Input ~ 0
 HotendNeg
-Text GLabel 8525 2200 0    50   Input ~ 0
+Text GLabel 1325 5750 0    50   Input ~ 0
 PcFanGnd
-Text GLabel 8525 2300 0    50   Input ~ 0
+Text GLabel 1325 5850 0    50   Input ~ 0
 HotendFanGnd
-Text GLabel 9025 2800 2    50   Input ~ 0
+Text GLabel 1825 6350 2    50   Input ~ 0
 Aux1
-Text GLabel 8525 2800 0    50   Input ~ 0
+Text GLabel 1325 6350 0    50   Input ~ 0
 Aux2
-Text GLabel 9025 2400 2    50   Input ~ 0
+Text GLabel 1825 5950 2    50   Input ~ 0
 ThHot
-Text GLabel 8525 2400 0    50   Input ~ 0
+Text GLabel 1325 5950 0    50   Input ~ 0
 ThCom
-Text GLabel 9025 2300 2    50   Input ~ 0
+Text GLabel 1825 5850 2    50   Input ~ 0
 AltVolt
+Wire Wire Line
+	1050 4100 1150 4100
 $EndSCHEMATC
