@@ -2,7 +2,7 @@
 
 Toolboard for easy & quick connection between the backpack and toolhead.
 
-This repo is supposed to be ahead of the carabiner in https://github.com/Annex-engineering-internal/Misc/ as this repo contains the in-progress versions of it.
+The carabiner was inspired by the dumbboard of LukesLab and designed to bring the idea of a 'simple toolboard' to the next level!
 
 ## Features
 
@@ -18,7 +18,7 @@ This repo is supposed to be ahead of the carabiner in https://github.com/Annex-e
 	- Stepper connector
 	- Extra 4-pin connector
 - ChamberThermistor
-- Soldered voltage selection to either use main voltage (hotend voltage) or alternative voltage on the hotend fan and partcooling fan seperately
+- Soldered voltage selection to either use main voltage (hotend voltage) or an alternative voltage on the hotend fan or partcooling fan seperately
 - BAT85 diode for inductive probe (or jumper to skip it) on the extra 4-pin connector
 
 ## BOM / Parts
@@ -30,8 +30,3 @@ This repo is supposed to be ahead of the carabiner in https://github.com/Annex-e
 - 2x 4pin JST XH connector (Motor, Aux)
 - 1x 1206 thermistor (ChamberThermistor) (smaller thermistors might fit)
 - (optional) 1x BAT85 Diode (for inductive probes) ( https://www.aliexpress.com/item/32666982991.html )
-
-## Stencil
-
-To make populating a carabiner more easy you may print the stencil file located in 'stencil'. 
-It's been verified that even if printed in PLA the stencil holds up fine.
