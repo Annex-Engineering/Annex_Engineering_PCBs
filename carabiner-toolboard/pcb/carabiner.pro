@@ -1,4 +1,4 @@
-update=Fr 31 Jul 2020 22:25:53
+update=Di 05 Jän 2021 14:54:00
 version=1
 last_client=kicad
 [general]
@@ -249,6 +249,39 @@ dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
+Name=2 Amp
+Clearance=0.2
+TrackWidth=0.3
+ViaDiameter=0.8
+ViaDrill=0.4
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/2]
+Name=3 Amp
+Clearance=0.2
+TrackWidth=0.5
+ViaDiameter=0.8
+ViaDrill=0.4
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/3]
+Name=4.5 Amp
+Clearance=0.2
+TrackWidth=1.2
+ViaDiameter=0.8
+ViaDrill=0.4
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/4]
 Name=FanAmp
 Clearance=0.2
 TrackWidth=0.6
@@ -259,7 +292,7 @@ uViaDrill=0.1
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
-[pcbnew/Netclasses/2]
+[pcbnew/Netclasses/5]
 Name=HighAmp
 Clearance=0.2
 TrackWidth=1.2
@@ -270,7 +303,7 @@ uViaDrill=0.1
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
-[pcbnew/Netclasses/3]
+[pcbnew/Netclasses/6]
 Name=LowAmp
 Clearance=0.2
 TrackWidth=0.4
@@ -281,7 +314,7 @@ uViaDrill=0.1
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
-[pcbnew/Netclasses/4]
+[pcbnew/Netclasses/7]
 Name=MediumAmp
 Clearance=0.2
 TrackWidth=0.8
