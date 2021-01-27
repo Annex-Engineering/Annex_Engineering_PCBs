@@ -1,32 +1,34 @@
 # Carabiner-Toolboard
 
-Toolboard for easy & quick connection between the backpack and toolhead.
-
-The carabiner was inspired by the dumbboard of LukesLab and designed to bring the idea of a 'simple toolboard' to the next level!
+The carabiner is a toolboard for easy & quick connection between the backpack and toolhead.
 
 ## Features
 
-- Input via
-	- 16pin horizontal microfit
-	- 16pin vertical microfit
+- Input via 16pin horizontal/vertical microfit
+- Two outputs for partcooling fans
+- Soldered seperate voltage selection for hotend fan and partcooling fan
+   - Uses either the hotend voltage or one alternative voltage
+- Thermistor for the chamber
+  - Supports any size from 0603 to 1206
+- BAT85 diode for inductive probes
 
-- Outputs for 
-	- Hotend (JST XH or microFit)
-	- Hotend thermistor 
-	- Hotend fan 
-	- 2x Partcooling fan
-	- Stepper connector
-	- Extra 4-pin connector
-- ChamberThermistor
-- Soldered voltage selection to either use main voltage (hotend voltage) or an alternative voltage on the hotend fan or partcooling fan seperately
-- BAT85 diode for inductive probe (or jumper to skip it) on the extra 4-pin connector
+
+## Connectors & Amperage
+
+_Note: All amperage-values have been designed to work in an enclosed printer with up to 65° chamber temperature & have  some safety margins. While you could use higher ampere in an open-frame printer, it's highly discouraged. <br/>
+When multiple connectors are supported **bold** marks the recommended connector._
+
+|   | Supported Connectors | Maximum Ampere |
+| ------------- | ------------- | ------------- | 
+| Hotend  | 2-pin JST XH <br/> Microfit 430450227 <br/> **Microfit 436500227** (compatible with e3d heater) | 2 Ampere (40W heater on 24V) <br/> 3.3 Ampere (80W heater on 24V) <br/>3.3 Ampere (80W heater on 24V)
+| Hotend Thermistor  | 2-pin JST XH <br/> **Microfit 436500227** (compatible with e3d thermistor) | / <br/> /
+| Hotend Fan | 2-pin JST XH | 1 Ampere
+| 2x Partcooling Fan | 2-pin JST XH | 1 Ampere (total for both)
+| Stepper | 4-pin JST XH | 1.2 Ampere <br/> 0.84 Ampere on TMC drivers as you specify the RMS ampere which is ~70% of peak
+| Aux / Probe | 4-pin JST XH | 0.8 Ampere
+
 
 ## BOM / Parts
 
-- 16 pin microFit cable ( https://www.aliexpress.com/item/4001132970645.html ) 
-- 16 pin micro-Fit horizontal 43045 connector ( https://www.aliexpress.com/item/32825801831.html )
-- 2 pin micro-Fit 43650 connector (Hotend) 
-- 4x 2pin JST XH connector (HotendThermistor, 2x PCFan, HEFan)
-- 2x 4pin JST XH connector (Motor, Aux)
-- 1x 1206 thermistor (ChamberThermistor) (smaller thermistors might fit)
-- (optional) 1x BAT85 Diode (for inductive probes) ( https://www.aliexpress.com/item/32666982991.html )
+Find the latest BOM in the [Annex Sourcing Guide](https://docs.google.com/spreadsheets/d/1O3eyVuQ6M4F03MJSDs4Z71_XyNjXL5HFTZr1jsaAtRc) under PCBs
+
