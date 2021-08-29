@@ -1,0 +1,17 @@
+Altium Designer Pick and Place Locations
+C:\Users\Matt\AppData\Local\TempReleases\Snapshot\1\Assembly\Pick Place\Pick Place for S6-EXP-Bridge.csv
+
+========================================================================================================================
+File Design Information:
+
+Date:       08/02/21
+Time:       10:23
+Revision:   Not in VersionControl
+Variant:    No variations
+Units used: mm
+
+"Comment","Description","Designator","Footprint","Layer","Ref-X(mm)","Ref-Y(mm)","Rotation"
+"SFH11-PBPC-D05-ST-BK","2x5 2.54mm Pin Receptacle","J2","R2X5","BottomLayer","3.3067","7.0798","270"
+"SFH11-PBPC-D05-ST-BK","2x5 2.54mm Pin Receptacle","J4","R2X5","BottomLayer","14.6267","15.0198","270"
+"SFH11-PBPC-D05-ST-BK","2x5 2.54mm Pin Receptacle","J3","R2X5","BottomLayer","14.6267","35.9998","270"
+"SFH11-PBPC-D05-ST-BK","2x5 2.54mm Pin Receptacle","J1","R2X5","BottomLayer","3.3067","27.7808","270"
