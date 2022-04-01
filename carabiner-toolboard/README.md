@@ -2,6 +2,7 @@
 
 The carabiner is a toolboard for easy & quick connection between the backpack and toolhead.
 ![picture](images/Overview.JPG)
+It was inspired by the first iterations of dumbboard by LukesLab and designed to bring the idea of a 'simple toolboard' to the next level!
 
 ## Features
 
