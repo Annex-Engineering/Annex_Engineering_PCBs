@@ -60,7 +60,7 @@ This pinout assumes you're looking directly at the cable.
 
 Side A and B of the R1.1 PCB
 
+## Discord
+Our discord server can be found here: 
 
-
-
-
+[![Join me on Discord](https://discord.com/api/guilds/641407187004030997/widget.png?style=banner2)](https://discord.gg/MzTR3zE)
