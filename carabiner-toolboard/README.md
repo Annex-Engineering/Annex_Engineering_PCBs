@@ -43,16 +43,16 @@ This pinout assumes you're looking directly at the cable.
 
 ![](images/pinout.png)
 
-| PinNumber | Usage | PinNumber | Usage |
-|-------------|:-------------:| ------------- |:-------------:|
-| 1  |  Thermistor Chamber | 9 | Hotend Voltage
-| 2  | Partcooling Fans Ground | 10 | Hotend Ground
-| 3  | Hotend Fan Ground | 11 | Alt Voltage
-| 4  | Thermistor Common Ground | 12 | Thermistor Hotend
-| 5  | Motor A | 13 | Motor C
-| 6  | Motor B | 14 | Motor D
-| 7  | Aux 1 | 15 | Aux 2
-| 8  | Aux 4 | 16 | Aux 3
+| PinNumber | Usage  | Silk on PCB | PinNumber | Usage | Silk on PCB | 
+|-------------|:-------------:|:-------------:| ------------- |:-------------:|:-------------:|
+| 1  |  Thermistor Chamber | ThChamb | 9 | Hotend Voltage | Main+
+| 2  | Partcooling Fans Ground | PCF- | 10 | Hotend Ground | HE-
+| 3  | Hotend Fan Ground | HEF- | 11 | Alt Voltage | Alt+
+| 4  | Thermistor Common Ground | ThGnd | 12 | Thermistor Hotend | ThHE
+| 5  | Motor A | 1A | 13 | Motor C | 2A
+| 6  | Motor B | 1B | 14 | Motor D | 2B
+| 7  | Aux 1 | A1 | 15 | Aux 2 | A2
+| 8  | Aux 4 | A4 | 16 | Aux 3 | A3
 
 
 ## Gallery
