@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "climber-rescue")(type "Legacy")(uri "${KIPRJMOD}/carabiner-rescue.lib")(options "")(descr ""))
+  (lib (name "carabiner-rescue")(type "Legacy")(uri "${KIPRJMOD}/carabiner-rescue.lib")(options "")(descr ""))
+)
