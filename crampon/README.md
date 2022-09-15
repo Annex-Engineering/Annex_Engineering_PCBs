@@ -14,6 +14,7 @@ A miniature USB ADXL345 board meant for Klipper InputShaper tuning at the nozzle
 Crampon requires a minor SPI bus remapping that can not be mainlined at the moment. The recommended build method is to clone a new klipper repo with the changes and build outside of your main klipper install.
 
 ```
+cd ~
 git clone https://github.com/Annex-Engineering/klipper klipper_crampon
 cd klipper_crampon
 git checkout work-crampon-release-20220914
@@ -35,7 +36,7 @@ make menuconfig
     USB ids  --->
 ()  GPIO pins to set at micro-controller startup
 ```
-> :warning: USB will not enumerate if Clock Reference is misconfigured.
+> :warning: USB will not enumerate if Clock Reference is misconfigured. You will have to manually enter bootloader by following the Hardware Bootloader instructions below.
 ```
 make
 ```
