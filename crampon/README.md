@@ -1,6 +1,8 @@
 # Crampon
 
 A miniature USB ADXL345 board meant for Klipper InputShaper tuning at the nozzle location.
+![picture](images/render-14.jpg)
+
 
 ## Features
 
