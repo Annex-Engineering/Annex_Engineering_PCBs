@@ -11,6 +11,10 @@ A miniature USB ADXL345 board meant for Klipper InputShaper tuning at the nozzle
 - Mountable with ADXL toward or away from heater block.
 - Screw alignment cutouts for M3
 
+## Crampon Anchor Firmware
+
+Crampon now supports an alternate firmware written with [Anchor](https://github.com/Annex-Engineering/anchor) in Rust. Details on using it can be found on the github repo for [crampon_anchor](https://github.com/Annex-Engineering/crampon_anchor).
+
 ## Building Klipper MCU
 
 Crampon requires a minor SPI bus remapping that can not be mainlined at the moment. The recommended build method is to clone a new klipper repo with the changes and build outside of your main klipper install.
