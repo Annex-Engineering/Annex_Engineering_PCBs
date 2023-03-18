@@ -1,7 +1,7 @@
 # Carabiner Distributor
 
 The distributor variant is a toolboard for the electronics bay providing an easy & quick connection between the electronic controllers and toolhead. 
-![picture](images/Main.jpg)
+![picture](images/Harness_distributor_2.png)
 
 ## Features
 
@@ -24,9 +24,11 @@ When multiple connectors are supported **bold** marks the recommended connector.
 | Stepper | 4-pin JST XH | 1.2 Ampere <br/> 0.84 Ampere on TMC drivers as you specify the RMS ampere which is ~70% of peak
 | Aux / Probe | 4 or 5-pin JST XH | 0.8 Ampere
 
-## BOM / Parts
 
-Find the latest BOM in the [Annex Sourcing Guide](https://docs.google.com/spreadsheets/d/1O3eyVuQ6M4F03MJSDs4Z71_XyNjXL5HFTZr1jsaAtRc) under PCBs
+## Sourcing
+Links to purchase fully assembled boards can be found here: [ANNEX Sourcing Guide](https://docs.google.com/spreadsheets/d/1aSM1jGxg-s0tyynyR3f8M0IQMXuXw57RJvoJbt98Clw/edit?usp=sharing)
+
+Be aware that the distributor pcb has 2 options for connectors regarding the thermistor and heater.
 
 
 ## Wiring Guide
@@ -48,7 +50,8 @@ This pinout assumes you're looking directly at the cable.
 
 
 ## Gallery
-![picture](images/Rotated.jpg)
+![picture](images/Distributor_preview.png)
+![picture](images/Distributor_back.png)
 
 
 
