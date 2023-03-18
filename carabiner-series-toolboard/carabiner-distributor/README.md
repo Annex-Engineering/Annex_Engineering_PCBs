@@ -48,6 +48,8 @@ This pinout assumes you're looking directly at the cable.
 | 7  | Aux 1 | 15 | Aux 2
 | 8  | Aux 4 | 16 | Aux 3
 
+## Dimensions
+![picture](Gallery/Distributor_dimensions.png)
 
 ## Gallery
 ![picture](images/Distributor_preview.png)
