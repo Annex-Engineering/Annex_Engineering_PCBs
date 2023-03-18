@@ -1,7 +1,7 @@
 # K3rabiner-Toolboard
 
 The K3rabiner is a toolboard for the K3 and an easy & quick connection between the backpack and toolhead. Thanks to wendemann for the original work.
-![picture](Images/K3rabiner_with_harness.png)
+![picture](images/K3rabiner_with_harness.png)
 
 ## Features
 
@@ -33,7 +33,7 @@ When multiple connectors are supported **bold** marks the recommended connector.
 Links to purchase fully assembled boards can be found here: [ANNEX Sourcing Guide](https://docs.google.com/spreadsheets/d/1aSM1jGxg-s0tyynyR3f8M0IQMXuXw57RJvoJbt98Clw/edit?usp=sharing)
 
 Be aware that K3rabiner B0.1 and up have 3 different options for Heater and Thermistor connectors:
-![picture](Images/K3rabiner_options.png)
+![picture](images/K3rabiner_options.png)
 
 
 ## Wiring Guide
