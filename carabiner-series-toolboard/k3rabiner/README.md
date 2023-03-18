@@ -1,7 +1,7 @@
 # K3rabiner-Toolboard
 
 The K3rabiner is a toolboard for the K3 and an easy & quick connection between the backpack and toolhead. Thanks to wendemann for the original work.
-![picture](images/Front.JPG)
+![picture](Images/K3rabiner_with_harness.png)
 
 ## Features
 
@@ -10,6 +10,9 @@ The K3rabiner is a toolboard for the K3 and an easy & quick connection between t
 - Output for partcooling fans
 - Soldered seperate voltage selection for hotend fan and partcooling fan
    - Uses either the hotend voltage or one alternative voltage
+
+## Latest information
+The latest information related to the printed toolhead parts can be found [HERE.](https://github.com/Annex-Engineering/Gasherbrum-K3/tree/main/Release_1_2/Experimental/K3_K3rabiner_toolhead_pcb)
 
 
 ## Connectors & Amperage
@@ -26,9 +29,11 @@ When multiple connectors are supported **bold** marks the recommended connector.
 | Stepper | 4-pin JST XH | 1.2 Ampere <br/> 0.84 Ampere on TMC drivers as you specify the RMS ampere which is ~70% of peak
 | Aux / Probe | 4-pin JST XH | 0.8 Ampere
 
-## BOM / Parts
+## Sourcing
+Links to purchase fully assembled boards can be found here: [ANNEX Sourcing Guide](https://docs.google.com/spreadsheets/d/1aSM1jGxg-s0tyynyR3f8M0IQMXuXw57RJvoJbt98Clw/edit?usp=sharing)
 
-Find the latest BOM in the [Annex Sourcing Guide](https://docs.google.com/spreadsheets/d/1O3eyVuQ6M4F03MJSDs4Z71_XyNjXL5HFTZr1jsaAtRc) under PCBs
+Be aware that K3rabiner B0.1 and up have 3 different options for Heater and Thermistor connectors:
+![picture](Images/K3rabiner_options.png)
 
 
 ## Wiring Guide
@@ -50,8 +55,8 @@ This pinout assumes you're looking directly at the cable.
 
 
 ## Gallery
-![picture](images/Side.JPG)
-![picture](images/Front-2.JPG)
+![picture](images/K3rabiner_preview.png)
+![picture](images/K3rabiner_top.png)
 
 
 
