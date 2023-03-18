@@ -49,7 +49,7 @@ This pinout assumes you're looking directly at the cable.
 | 8  | Aux 4 | 16 | Aux 3
 
 ## Dimensions
-![picture](Gallery/Distributor_dimensions.png)
+![picture](images/Distributor_dimensions.png)
 
 ## Gallery
 ![picture](images/Distributor_preview.png)
