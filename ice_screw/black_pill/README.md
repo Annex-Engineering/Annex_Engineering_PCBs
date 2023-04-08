@@ -15,3 +15,7 @@ please note: soldering skill is required for this board
 
 ## Pin Map
  ![Pin Map](pinmap/pinmap.png?raw=true)
+
+## Photos
+![Kit Image](images/kit.jpg?raw=true)
+![Kit Image 2](images/installed_in_supernova.jpg?raw=true)
