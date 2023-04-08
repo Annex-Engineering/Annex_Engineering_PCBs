@@ -7,6 +7,9 @@ Ice screw is a board that adapts a specific project board (in this case a black 
 - 240mhz clock speed
 - USB-C!
 
+## Sourcing
+Sourcing can be found here: [Click Me](https://docs.google.com/spreadsheets/d/1O3eyVuQ6M4F03MJSDs4Z71_XyNjXL5HFTZr1jsaAtRc/edit?usp=sharing)
+
 ## Ice Screw - Black Pill Edition - Klipper Firmware
 This is currently not supported by mainline, we have included a pre-built binary until such merge is made
 
