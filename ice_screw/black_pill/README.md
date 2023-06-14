@@ -13,6 +13,10 @@ Sourcing can be found here: [Click Me](https://docs.google.com/spreadsheets/d/1O
 ## Ice Screw - Black Pill Edition - Klipper Firmware
 This is currently not supported by mainline, we have included a pre-built binary until such merge is made
 
+## Flashing (Incase you want to for some reason)
+run the following command:
+'''sudo dfu-util -d ,2e3c:df11 -R -a 0 -D insert_firmware_here.bin --dfuse-address 0x08000000:leave'''
+
 ## Notes
 please note: soldering skill is required for this board
 
