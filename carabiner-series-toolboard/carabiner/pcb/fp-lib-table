@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name carabiner-footprints)(type KiCad)(uri ${KIPRJMOD}/carabiner-footprints/carabiner-footprints.pretty)(options "")(descr ""))
-)
